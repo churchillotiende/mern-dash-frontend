@@ -1,0 +1,23 @@
+.schedule-cell-dimension.e-schedule
+  .e-vertical-view
+  .e-date-header-wrap
+  table
+  col,
+.schedule-cell-dimension.e-schedule .e-vertical-view .e-content-wrap table col
+/* .schedule-cell-dimension.e-schedule .e-vertical-view .e-left-indent  */ {
+  width: 120px;
+}
+
+.schedule-cell-dimension.e-schedule
+  .e-vertical-view.e-day-view
+  .e-header-cells {
+  display: none;
+}
+
+.e-schedule .e-vertical-view .e-resource-cells {
+  /* color: rgba(0, 0, 0, 0.87); */
+  font-size: 13px;
+  height: 95px;
+  padding: 8px;
+  padding-left: 15px;
+}
